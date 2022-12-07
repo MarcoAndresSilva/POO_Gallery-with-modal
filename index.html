@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://kit.fontawesome.com/8c2e7c40ab.js" crossorigin="anonymous"></script>
+
+  <title>Gallery POO</title>
+</head>
+
+<body>
+
+  <!-- nature -->
+  <section class="section nature">
+    <img src="./images/nature1.jpg" title="nature1" class="img" data-id="1" alt="nature">
+    <img src="./images/nature2.jpg" title="nature2" class="img" data-id="2" alt="nature">
+    <img src="./images/nature3.jpg" title="nature3" class="img" data-id="3" alt="nature">
+    <img src="./images/nature4.jpg" title="nature4" class="img" data-id="4" alt="nature">
+    <img src="./images/nature5.jpg" title="nature5" class="img" data-id="5" alt="nature">
+    <img src="./images/nature6.jpg" title="nature6" class="img" data-id="6" alt="nature">
+  </section>
+
+  <!-- animasl  -->
+  <section class="section animals">
+    <img src="./images/animal1.jpg" title="Leopardo" class="img" data-id="1" alt="animals">
+    <img src="./images/animal2.jpg" title="Elefantes" class="img" data-id="2" alt="animals">
+    <img src="./images/animal3.jpg" title="Iguana" class="img" data-id="3" alt="animals">
+    <img src="./images/animal4.jpg" title="Martin Pescador" class="img" data-id="4" alt="animals">
+    <img src="./images/animal5.jpg" title="Zorro" class="img" data-id="5" alt="animals">
+    <img src="./images/animal6.jpg" title="Caballo" class="img" data-id="6" alt="animals">
+  </section>
+
+  <!-- modal -->
+  <div class="modal">
+    <button class="close-btn">
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+    <div class="modal-content">
+      <!-- prev next buttons  -->
+      <button class="prev-btn">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </button>
+      <button class="next-btn">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </button>
+
+      <!-- content  -->
+      <img src="./images/animal1.jpg" class="main-img" alt="">
+      <h3 class="image-name">image name</h3>
+      <div class="modal-images">
+        <img src="./images/animal1.jpg" title="animal1" id="1" class="modal-img" alt="animasl">
+        <img src="./images/animal2.jpg" title="animal2" id="2" class="modal-img selected" alt="animals">
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript " src="./app.js"></script>
+
+  <!-- ionicons  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
